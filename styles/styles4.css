@@ -1,0 +1,45 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+p {
+    width: 80%;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid blue;
+}
+
+/* adds a border to ... everything, looks bad * {
+    border: 2px solid blue;
+}*/
+
+h1 {
+    text-align: center;
+}

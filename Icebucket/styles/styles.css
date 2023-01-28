@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&Darker+Grotesque:ital,wght@0,400;0,700;1,400&display=swap');
+
+header {
+    color: white;
+    font-size: 40px; 
+    margin: 10px;
+}
+
+body {
+    background-color: hotpink;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto
+}
+
+quote {
+    color: white;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 14px;
+}
+
+li {
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+img {
+    width: 180px;
+    display: block;
+    margin: 15px auto;
+}
+
+quote2 {
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+footer {
+    margin: 35px;
+}
