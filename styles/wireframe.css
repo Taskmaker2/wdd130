@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&Times+New+Roman:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --heading-font: "Lora";
+  --paragraph-font: "Times New Roman";
+
+  font-size: 22px;
+}
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 35%;
   }
+
+#logo-link{
+  padding-top: 5px;
+}
 
 #content{
   max-width: 1600px;
@@ -14,9 +27,13 @@
   background-color: #B3E9E7;
 }
 body {
+  font-family: var(--paragraph-font), Tahoma, Sans-Serif;
   background-color: #ebf1f3; 
+  margin: 0;
+  padding: 0;
 }
 header {
+  font-family: var(--heading-font), Tahoma, Sans-Serif;
   background-color:#4499e3;
 }
 nav a:hover {
@@ -24,12 +41,20 @@ nav a:hover {
   background-color: #4499e3;
 }
 .book{
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
   border-style: solid;
   color:#ffd900;
   background-color: #4499e3;
   text-decoration: none;
 } 
 .join{
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-size: 18px;
   border-style: solid;
   color:#ffd900;
   background-color: #4499e3;
@@ -45,16 +70,24 @@ nav a:hover {
 }
 
 .msg{
+  padding: 35px;
+  line-height: 1.5em;
   background-color: #4499e3;
 }
 .msg h2{
+  font-family: var(--heading-font), Tahoma, Sans-Serif;
   color:#ffd900;
+  margin: 0;
 }
 .msg p{
+  padding-bottom: 15px;
+  font-size: .8em;
   color:#ffd900;
 }
 
 footer{
+  margin-top: 200px;
+  padding: 25px 50px;
   background-color: #4499e3;
   color:#ffd900;
 }      
@@ -71,6 +104,9 @@ footer p {
 }   
 footer p a:hover{
   text-decoration: underline;
+}
+footer .social img{
+  padding-top: 15px;
 }
 
 #hero-img{
@@ -90,6 +126,10 @@ footer p a:hover{
 main section{
   text-align: center;
 }
+main section img{
+  box-sizing: border-box;
+}
+
 nav {
   background-color: #ffd900;
   line-height: 3em;
@@ -105,9 +145,10 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
   color:#ffd900;
   text-decoration: none;
+  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -121,12 +162,31 @@ nav {
 }
 
 .home-title{
+  margin-top: 10px;
+  font-size: 2em;
+  font-family: var(--heading-font), Tahoma, Sans-Serif;
   color:#ffd900;
 }
 
+.card-img{
+  border: 10px; 
+  border-style: solid;
+  color: #4499e3
+}
+.river-card{
+  margin: 200px 0;
+}
+.camping-card{
+  margin: 200px 0;
+}
+.rapids-card{
+  margin: 200px 0;
+}
+
 .icon {
-    width: 80px;
+  padding-top: 10px;
+  width: 80px;
 }
 .logo {
-    width: 80px;
+  width: 80px;
 }
