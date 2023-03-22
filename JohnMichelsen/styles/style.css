@@ -89,14 +89,16 @@ footer .social img{
 }
 
 .container {
-  position: relative;
+  position: absolute;
   width: 50%;
+  float: left;
 }
 
 .image {
   display: block;
   height: auto;
-  padding: 20px
+  padding: 20px;
+  width: 26%;
 }
 
 .overlay {
@@ -105,11 +107,12 @@ footer .social img{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 26%;
   opacity: 0;
   transition: .5s ease;
   background-color:#4499e3; 
+  margin: 20px;
 }
 
 .container:hover .overlay {
