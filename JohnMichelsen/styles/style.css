@@ -52,6 +52,11 @@ p.solid {
   max-height: 100%;
 }
 
+.PDF{
+  margin-left: 220px;
+}
+
+
 footer{
   margin-top: 200px;
   padding: 25px 50px;
