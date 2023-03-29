@@ -91,6 +91,7 @@ footer .social img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
   width: 50%;
 }
 
@@ -138,6 +139,21 @@ footer .social img{
 }
 
 .about {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
