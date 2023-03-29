@@ -13,6 +13,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     grid-template-rows: 90px;
+    font-size: 1.2em;
   }
 
 nav{
@@ -134,4 +135,9 @@ footer .social img{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.about {
+  padding-left: 40px;
+  padding-right: 40px;
 }
